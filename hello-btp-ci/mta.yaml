@@ -1,0 +1,15 @@
+_schema-version: "3.2"
+ID: hello-btp-ci
+version: 1.0.0
+
+modules:
+  - name: hello-app
+    type: html5
+    path: .
+    build-parameters:
+      builder: custom
+      commands: []
+      supported-platforms: []
+    parameters:
+      memory: 64M
+      disk-quota: 256M
